@@ -1,0 +1,3 @@
+[submodule "Polytope"]
+	path = Polytope
+	url = https://github.com/vezwork/Polytope.git

@@ -1,15 +1,17 @@
 # GitHub Blocks Template
 
-Use this repository as a starter template for building your own Blocks.
+This repository is based on a [starter template](https://github.com/githubnext/blocks-template) for building your own Blocks.
+
 ## Quickstart
 
-> 🛑 Currently, you must be flagged into the [GitHub Blocks Technical Preview](https://blocks.githubnext.com) in order to develop blocks. There is no "offline" development mode at this time.
+vezwork's note: I've made it so that this repo has [Polytope](https://github.com/vezwork/Polytope/) as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules). If you are cloning this repo, I believe you will have to run:
 
-Fork this repo using the [`Use this template`](https://github.com/githubnext/blocks-template/generate) button above:
+```bash
+git submodule init
+git submodule update
+```
 
-!["Use this template" button](https://user-images.githubusercontent.com/8978670/144893319-5d45ab5c-12c0-42b4-99f8-97f658deb03b.png)
-
-Then, clone _your_ repo (not [this one!](https://github.com/githubnext/blocks-template)) and get ready for action:
+Note also that pulling will not be enough, you will also have to run `git submodule update`. Then you can run:
 
 ```bash
 yarn # install dependencies
@@ -37,6 +39,7 @@ Visit [githubnext/blocks](https://blocks.githubnext.com/githubnext/blocks) for a
 You should also join us in our discord! There's a [#blocks channel](https://discord.com/channels/735557230698692749/1039950186136469535) where you can connect with us and other folks who are building Blocks:
 
 > 👋 https://discord.gg/githubnext
+
 ## License
 
 MIT
